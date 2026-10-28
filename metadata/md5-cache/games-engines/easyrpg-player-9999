@@ -1,0 +1,13 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-libs/liblcf:0= media-libs/libsdl3:0= media-libs/sdl3-mixer:0= x11-libs/pixman:0= media-libs/libpng:0= sys-libs/zlib:0= media-libs/freetype:2= media-libs/harfbuzz:0= media-sound/mpg123:0= media-sound/wildmidi:0= media-libs/libvorbis:0= media-libs/libsndfile:0= media-libs/speex:0=
+DESCRIPTION=RPG Maker 2000/2003 and EasyRPG games interpreter
+EAPI=8
+HOMEPAGE=https://easyrpg.org/player/
+INHERIT=cmake git-r3
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-libs/liblcf:0= media-libs/libsdl3:0= media-libs/sdl3-mixer:0= x11-libs/pixman:0= media-libs/libpng:0= sys-libs/zlib:0= media-libs/freetype:2= media-libs/harfbuzz:0= media-sound/mpg123:0= media-sound/wildmidi:0= media-libs/libvorbis:0= media-libs/libsndfile:0= media-libs/speex:0=
+SLOT=0
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	ninja-utils	d063ea1900a793f93eb095010d6d9156	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3530055400d05e64deaba3042af30af6	git-r3	e6c2f983e006e805160436c75a0c1562
+_md5_=e983c05bbbd671331ab0ae049a33b298
